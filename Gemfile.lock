@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    zoho_tools (0.1.0)
+    zoho_tools (1.0.0)
       rest-client (> 2)
 
 GEM

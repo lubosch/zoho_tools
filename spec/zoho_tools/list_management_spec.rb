@@ -39,7 +39,7 @@ RSpec.describe ZohoTools::ListManagement do
     let(:source) { 'app' }
     let(:refresh_token) { '123123' }
 
-    it 'subscribes user' do
+    it 'unsubscribes user' do
       stub_request(:post, 'https://campaigns.zoho.eu/api/v1.1/json/listunsubscribe')
         .with(body: hash_including(listkey: 'klmrkl2m3lkm43lk34lk43m43l3k4mlk4m3lk4k43mlkmkl4',
                                    resfmt: 'JSON',
